@@ -1,0 +1,73 @@
+/* common style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  padding: 1rem 0 0;
+}
+
+.header-logo {
+  text-align: center;
+}
+
+.global-nav {
+  width: 100%;
+  margin: 1rem 0 0;
+}
+
+.global-nav li {
+  width: 20%;
+  text-align: center;
+  border-left: .5px solid #000;
+  float: left;
+}
+
+/* main */
+main {
+  padding: 1rem 0;
+}
+
+.contents {
+  margin: 1rem 0 0;
+}
+
+/* Topocs */
+.topics-conts {
+  width: 65%;
+  float: left;
+}
+
+.news-area li {
+  font-size: .8rem;
+  padding: .5rem 0;
+  border-bottom: dotted 1px;
+}
+
+/* Event&Live */
+.event-conts {
+  width: 30%;
+  float: right;
+}
+
+.event-conts li {
+  margin: .5rem 0;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
